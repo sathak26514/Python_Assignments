@@ -1,0 +1,12 @@
+'''
+number is positive and even using nested if-else.
+'''
+num = int(inuput("Enter a number: "))
+
+if num > 0:
+    if num % 2 == 0:
+        print("Positive and even")
+    else:
+        print("Positive but odd")
+else:
+    print("Number is not positive")
